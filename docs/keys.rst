@@ -10,8 +10,8 @@ The main place that keys are parsed is when requesting variables or properties c
 
 Even beyond ``FluidState`` objects, both the ``pyharm-movie`` and ``pyharm-analysis`` scripts have additional lists of keys and modifiers that they accept, representing what plots to render or sets of reductions to perform.
 
-Fluid Dump Keys
----------------
+Fluid State Keys
+----------------
 
 All the fluid primitives in HARM-like schemes are supported, of course: ``rho, u, u1, u2, u3, uvec, B1, B2, B3, bvec``. The ``*vec`` versions return all 3 components of the primitives.
 

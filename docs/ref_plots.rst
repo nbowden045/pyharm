@@ -21,7 +21,7 @@ Plotting from Analysis Results
    :members:
 
 Plotting Emission Origin and Non-``FluidState`` Data
----------------------------------------------------
+----------------------------------------------------
 
 .. automodule:: pyharm.plots.origin
    :members:

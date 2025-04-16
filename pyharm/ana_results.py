@@ -130,7 +130,7 @@ class AnaResults(object):
 
     When using __getitem__ (i.e. res[]), the name after the slash doesn't have to be something
     directly present in the file -- it can include many of the 'key' features available in FluidState,
-    notably unary operators (sqrt_, abs_, etc), but this is all separate functions so YMMV.
+    notably unary operators (``"sqrt_"``, ``"abs_"``, etc), but this is all separate functions so YMMV.
     Time-dependent variables may also append '_smoothed' or '_smoothed_xx' to calculate a
     running average over xx values (that is, samples, not simulation time units).
 
