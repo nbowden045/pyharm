@@ -282,7 +282,9 @@ def lam_MRI_transform(dump):
             dump['b^th'] * np.sqrt(dump['r']**2 + dump['a']**2 * np.cos(dump['th'])**2)
 
 def enthalpy(dump):
-    return 1 + dump['Pg'] + dump['u']
+    """Specific Enthalpy ``h = 1 + (Pg + u)/rho``
+    """
+    return 1.0 + (dump['Pg'] + dump['u']) / dump['rho']
 
 def entropy(dump): # added by Hyerin (02/14/23)
     return dump['p']/np.power(dump['rho'],dump['gam'])
